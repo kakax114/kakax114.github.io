@@ -19,7 +19,7 @@
                 </div>
                 <div style="cursor: pointer;">
 					<img id="Back_Button" src="img/goback.png" class="image"/>
-					<p id="Dashboard" onclick="location.href='index.html';">
+					<p id="Dashboard">
 					Dashboard
 					</p>
 				</div>
@@ -57,5 +57,11 @@
             </div>
         </div>
     </div>
+		<script>
+		document.getElementById("Dashboard").onclick = function () {
+			location.href = "index.html";
+			document.documentElement.className="animated zoomOut";
+		}
+		</script>
     </body>
 </html>
