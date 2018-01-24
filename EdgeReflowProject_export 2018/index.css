@@ -268,6 +268,7 @@
     position: relative;
     top: 0px;
     left: 0px;
+	background-image:url("img/IMG-Energy.png");
     z-index: 20;
     margin-top: 523px;
     margin-left: -65.247611%;
@@ -2031,7 +2032,7 @@
     top: 0px;
     left: 0px;
     z-index: 5;
-    background-image:url("img/Deep%20Blue.png");
+    background-image:url("img/bluebokeh.png");
     -webkit-background-size: 100%;
     background-size: 100%;
     margin-top: 8px;
