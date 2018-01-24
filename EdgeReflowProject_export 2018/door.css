@@ -187,10 +187,10 @@
     top: 0px;
     left: 0px;
     z-index: 14;
-    margin-top: -20px;
-    margin-left: 0px;
+    margin-top: 67px;
+    margin-left: 26%;
     clear: both;
-	cursor: pointer;
+	cursor: pointer;0
 	transition: all 0.5s ease;
 }
 
