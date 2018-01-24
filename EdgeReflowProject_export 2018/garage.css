@@ -1,0 +1,436 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#DP {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 19;
+    margin-top: 408px;
+    margin-left: -67.317073%;
+    clear: none;
+}
+
+#Rectangle_5 {
+    float: left;
+    height: 2px;
+    width: 24.878049%;
+    background-color: rgb(116, 189, 202);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    margin-top: 334px;
+    margin-left: -74.146341%;
+    clear: none;
+}
+
+#Recent {
+    float: left;
+    font-size: 0.7973025em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(116, 189, 202);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    margin-top: 313px;
+    margin-left: -73.170732%;
+    clear: none;
+}
+
+#Garage_B {
+    float: left;
+    font-size: 0.983172em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    color: rgb(21, 35, 60);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 7;
+    margin-top: 9px;
+    margin-left: 69.704142%;
+    clear: both;
+}
+
+#Stove {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    margin-top: 277px;
+    margin-left: -73.170732%;
+    clear: none;
+}
+
+#Music {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 15;
+    margin-top: 251px;
+    margin-left: -73.170732%;
+    clear: none;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#Music:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Windows {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 14;
+    margin-top: 225px;
+    margin-left: -73.170732%;
+    clear: none;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#Windows:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Garage1 {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 13;
+    margin-top: 198px;
+    margin-left: -73.170732%;
+    clear: none;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#Garage1:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Garage_A {
+    float: left;
+    font-size: 0.983172em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    color: rgb(21, 35, 60);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    margin-top: 11px;
+    margin-left: 53.136095%;
+    clear: both;
+}
+
+#Garage {
+    float: left;
+    font-size: 1.5148747500000002em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(116, 189, 202);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    margin-top: 123px;
+    margin-left: -73.170732%;
+    clear: none;
+}
+
+#open_garage_icon {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    margin-top: 101px;
+    margin-left: 1.534763%;
+    clear: none;
+}
+
+#close_garage_icon {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    margin-top: 101px;
+    margin-left: 47.692308%;
+    clear: none;
+}
+
+#Rectangle_5_copy {
+    float: left;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    margin-top: 67px;
+    margin-left: -100%;
+    clear: none;
+}
+
+#Dashboard {
+    float: left;
+    font-size: 0.956763em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(68, 68, 76);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 12;
+    margin-top: 27px;
+    margin-left: -71.707317%;
+    clear: none;
+	transition: all .8s ease;
+}
+
+#Dashboard:hover{
+	color: rgb(116, 189, 202);
+}
+
+#Back_Button {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 17;
+    margin-top: 27px;
+    margin-left: -85.853659%;
+    clear: none;
+}
+
+#red_car {
+    float: left;
+    width: 80.246914%;
+    height: 645px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-image:url("img/red%20car.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-top: 2px;
+    margin-left: 0.09496676%;
+    clear: none;
+}
+
+#Shape_7 {
+    float: left;
+    height: 646px;
+    width: 0.48780488%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 18;
+    margin-top: 0px;
+    margin-left: 99.512195%;
+    clear: none;
+}
+
+#Side_Pane {
+    float: left;
+    width: 19.468186%;
+    height: 646px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 8;
+    background-image:url("img/Side%20Pane.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+#Rectangle_6 {
+    float: none;
+    height: 646px;
+    width: 1053px;
+    background-color: rgb(233, 234, 226);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    clear: none;
+    margin-top: 100px;
+    -webkit-box-shadow: rgb(73, 73, 73) 0px 3px 33px -9px;
+    box-shadow: rgb(73, 73, 73) 0px 3px 33px -9px;
+}
+
+#box {
+    float: left;
+    height: 49px;
+    margin-left: 1.538462%;
+    margin-top: 83px;
+    clear: none;
+    width: 11.597634%;
+    display: block;
+    margin-right: 0%;
+}
+
+#close_garage_icon1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    margin-top: 84px;
+    margin-left: 64.023669%;
+    clear: both;
+    margin-right: 0%;
+}
+
+#box1 {
+    float: left;
+    height: 49px;
+    margin-left: 1.538462%;
+    margin-top: 66px;
+    clear: none;
+    width: 11.597634%;
+    display: block;
+    margin-right: 0%;
+}
+
+#open_garage_icon1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    margin-top: 84px;
+    margin-left: 1.529216%;
+    clear: none;
+    margin-right: 0%;
+}
+

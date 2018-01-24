@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="animated zoomIn">
+
+    <head>
+	<link rel="stylesheet" href="boilerplate.css">
+	<link rel="stylesheet" href="stove.css">
+	<link rel="stylesheet" href="animate.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+	<script>var __adobewebfontsappname__ = "reflow"</script>
+	<script src="http://use.edgefonts.net/roboto:n9,i9,n7,i7,i4,n3,i3,n5,i5,n4,n2,i2:all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <div id="Rectangle_6" class="clearfix">
+            <div id="Side_Pane" class="clearfix">
+                <div id="Shape_7" class="clearfix">
+                </div>
+				<div style="cursor: pointer;">
+					<img id="Back_Button" src="img/Back%20Button.png" class="image" />
+					<p id="Dashboard">
+					Dashboard
+					</p>
+				</div>
+                <div id="Rectangle_5_copy" class="clearfix">
+                </div>
+                <p id="Stove">
+                Stove
+                </p>
+                <p id="Garage" onclick="location.href='garage.html';">
+                Garage
+                </p>
+                <p id="Windows" onclick="location.href='door.html';">
+                Doors
+                </p>
+                <p id="Music" onclick="location.href='light.html';">
+                Lights
+                </p>
+                <img id="DP" src="img/DP.png" class="image" />
+            </div>
+            <div id="stove_top" class="clearfix">
+                <div id="box" class="clearfix">
+					<div id="imagecrossfade" onclick="crossfade('_0')">
+					  <img src="img/stove_off.png" />
+					  <img id="_0stove" src="img/stove_on.png" />
+					</div>
+                </div>
+                <img id="stoveplus_copy" src="img/stoveplus%20copy.png" class="image" onclick="add('_0')"/>
+                <img id="stoveplus_copy_4" src="img/stoveplus%20copy%204.png" class="image" onclick="add('_0_copy_3')"/>
+                <p id="_0">
+                1
+                </p>
+                <p id="_0_copy_3">
+                3
+                </p>
+                <img id="stove_minust_copy" src="img/stove%20minust%20copy.png" class="image" onclick="sub('_0')"/>
+                <div id="box1" class="clearfix">
+					<div id="imagecrossfade" onclick="crossfade('_0_copy_3')">
+					  <img src="img/stove_off.png" />
+					  <img id="_0_copy_3stove" src="img/stove_on.png" />
+					</div>
+                </div>
+                <img id="stove_minust_copy_4" src="img/stove%20minust%20copy%204.png" class="image" onclick="sub('_0_copy_3')"/>
+                <div id="box2" class="clearfix">
+					<div id="imagecrossfade" onclick="crossfade('_0_copy')">
+					  <img src="img/stove_off.png" />
+					  <img id="_0_copystove" src="img/stove_on.png" />
+					</div>
+                </div>
+                <img id="stoveplus_copy_2" src="img/stoveplus%20copy%202.png" class="image" onclick="add('_0_copy')"/>
+                <img id="stoveplus_copy_3" src="img/stoveplus%20copy%203.png" class="image" onclick="add('_0_copy_2')"/>
+                <p id="_0_copy">
+                5
+                </p>
+                <p id="_0_copy_2">
+                1
+                </p>
+                <img id="stove_minust_copy_2" src="img/stove%20minust%20copy%202.png" class="image" onclick="sub('_0_copy')"/>
+                <div id="box3" class="clearfix">
+					<div id="imagecrossfade" onclick="crossfade('_0_copy_2')">
+					  <img src="img/stove_off.png" />
+					  <img id="_0_copy_2stove" src="img/stove_on.png" />
+					</div>
+                </div>
+                <img id="stove_minust_copy_3" src="img/stove%20minust%20copy%203.png" class="image" onclick="sub('_0_copy_2')"/>
+            </div>
+        </div>
+    </div>
+	<style>
+	/*--------------image cross fade start------------------*/
+	#imagecrossfade {
+	cursor:pointer;
+	}
+	#imagecrossfade img {
+	position:absolute;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	}
+
+	.transparent {
+	opacity:0;
+	}
+	/*--------------image cross fade end------------------*/
+	
+	</style>
+	
+	<script>
+	/*
+	$(document).ready(function() {
+		$("#imagecrossfade").click(function() {
+			$("#imagecrossfade img.top").toggleClass("transparent");
+		});
+	});	
+	*/
+	document.getElementById("Dashboard").onclick = function () {
+		location.href = "index.html";
+		document.documentElement.className="animated zoomOut";
+    }
+	document.getElementById("Garage").onclick = function () {
+		location.href = "garage.html";
+		document.documentElement.className="animated zoomOut";
+    }
+	function add(option){
+		let currentReading = parseInt(document.getElementById(option).innerHTML)
+		if(document.getElementById(option+"stove").classList.item(0)!=="transparent"){
+			document.getElementById(option).innerHTML = currentReading<=4 ? currentReading+1 : currentReading;	
+		}		
+	}
+	function sub(option){
+		let currentReading = parseInt(document.getElementById(option).innerHTML)
+		document.getElementById(option).innerHTML = currentReading>1 ? currentReading-1 : currentReading;
+	}
+	function crossfade(option){
+		let cls=document.getElementById(option+"stove").classList
+		if(cls.item(0)==="transparent"){
+			document.getElementById(option).innerHTML = 1;
+		} else {
+			document.getElementById(option).innerHTML = 0;
+		}
+		cls.toggle("transparent")  
+	}
+	</script>
+		
+    </body>
+	
+
+</html>

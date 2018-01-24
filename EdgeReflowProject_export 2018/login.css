@@ -1,0 +1,177 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:-webkit-linear-gradient(149deg, rgb(124, 159, 161) 0%, rgb(33, 43, 46) 98%),url("img/login.jpg");
+    background-image: linear-gradient(301deg, rgb(124, 159, 161) 0%, rgb(33, 43, 46) 98%), url(file:///D:/job/smart%20home%20-%20smarthom.tk/EdgeReflowProject/assets/img/login.jpg);
+    background-position: 0% 0%;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    -webkit-background-size: auto;
+    background-size: auto;
+}
+
+#Line1 {
+    float: left;
+    height: 9px;
+    margin-left: 22.195285%;
+    margin-top: 105px;
+    clear: none;
+    width: 58.109428%;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    opacity: 0.5;
+    margin-right: 0%;
+}
+
+#Line2 {
+    float: left;
+    height: 7px;
+    margin-left: 22.092181%;
+    margin-top: 6px;
+    clear: both;
+    width: 58.109428%;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    margin-right: 0%;
+    opacity: 0.5;
+}
+
+#text {
+    float: left;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 23.975924%;
+    margin-top: 18px;
+    clear: both;
+    min-height: 0px;
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+    opacity: 0.5;
+}
+
+#text1 {
+    float: left;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 24.031656%;
+    margin-top: 15px;
+    clear: both;
+    min-height: 0px;
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+    opacity: 0.5;
+}
+
+#Qb {
+    float: left;
+    height: 31px;
+    margin-left: 2.421557%;
+    margin-top: -1px;
+    clear: none;
+    width: 5.711931%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    opacity: 0.4;
+    margin-right: 0%;
+}
+
+#text2 {
+    float: left;
+    font-size: 21px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 37.225208%;
+    margin-top: 6px;
+    clear: none;
+    min-height: 0px;
+    font-family: roboto;
+    color: rgb(57, 80, 81);
+    margin-right: 0%;
+    opacity: 1;
+}
+
+#LoginB {
+    float: left;
+    height: 50px;
+    margin-left: 22.28167%;
+    margin-top: 16px;
+    clear: both;
+    width: 57.875148%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    opacity: 0.4;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin-right: 0%;
+}
+
+#text3 {
+    float: left;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 42.369042%;
+    margin-top: 14px;
+    clear: none;
+    min-height: 0px;
+    font-family: roboto;
+    color: rgb(57, 80, 81);
+    margin-right: 0%;
+    opacity: 1;
+}
+
+#box {
+    float: none;
+    height: 374px;
+    margin-left: auto;
+    margin-top: 167px;
+    clear: none;
+    width: 560.7187446300001px;
+    margin-right: auto;
+}
+
+#uTxtBow {
+    float: left;
+    height: 39px;
+    margin-left: 24.327036%;
+    margin-top: 7px;
+    clear: both;
+    width: 44.763975%;
+}
+
+#pTxtBox {
+    float: left;
+    height: 39px;
+    margin-left: 24.399487%;
+    margin-top: 5px;
+    clear: both;
+    width: 44.763975%;
+    margin-right: 0%;
+}
+

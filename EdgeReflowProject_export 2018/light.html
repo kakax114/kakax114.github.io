@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="animated zoomIn">
+
+    <head>
+	<link rel="stylesheet" href="boilerplate.css">
+	<link rel="stylesheet" href="light.css">
+	<link rel="stylesheet" href="animate.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+	<script>var __adobewebfontsappname__ = "reflow"</script>
+	<script src="http://use.edgefonts.net/roboto:n9,i9,n7,i7,i4,n3,i3,n5,i5,n4,n2,i2:all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <div id="Bokeh_BG" class="clearfix">
+            <div id="Side_Pane" class="clearfix">
+                <div id="Shape_7" class="clearfix">
+                </div>
+				<div style="cursor: pointer">
+					<div id="Shape_8" class="clearfix">
+					</div>
+					<p id="Dashboard" onclick="location.href = 'index.html';">
+					Dashboard
+					</p>
+				</div>
+                <div id="Rectangle_5_copy" class="clearfix">
+                </div>
+                <p id="LIGHTS">
+                LIGHTS
+                </p>
+                <p id="Garage" onclick="location.href='garage.html';">
+                Garage
+                </p>
+                <p id="Windows" onclick="location.href='stove.html';">
+                Stove
+                </p>
+                <p id="Music" onclick="location.href='door.html';">
+                Doors
+                </p>
+                <img id="DP" src="img/DP.png" class="image" />
+            </div>
+            <div id="Deep_Blue" class="clearfix">
+                <div id="box" class="clearfix">
+					<div id="imagecrossfade">
+					  <img class="bottom" src="img/Disable.png" />
+					  <img class="top" src="img/Active.png" />
+					</div>
+                </div>
+                <div id="box1" class="clearfix">
+					<div id="imagecrossfade1">
+					  <img class="bottom" src="img/Disable.png" />
+					  <img class="top" src="img/Active.png" />
+					</div>
+                </div>
+                <div id="box2" class="clearfix">
+					<div id="imagecrossfade2">
+					  <img class="bottom" src="img/Disable.png" />
+					  <img class="top" src="img/Active.png" />
+					</div>
+                </div>
+                <div id="box3" class="clearfix">
+					<div id="imagecrossfade3">
+					  <img class="bottom" src="img/Disable.png" />
+					  <img class="top" src="img/Active.png" />
+					</div>
+                </div>
+                <div id="box4" class="clearfix">
+					<div id="imagecrossfade4">
+					  <img class="bottom" src="img/Disable.png" />
+					  <img class="top" src="img/Active.png" />
+					</div>
+                </div>
+                <p id="Living">
+                Living
+                </p>
+                <p id="Dinning">
+                Dinning
+                </p>
+                <p id="Bedroom">
+                Bedroom
+                </p>
+                <p id="Kitchen">
+                Kitchen
+                </p>
+                <p id="Bathroom">
+                Bathroom
+                </p>
+            </div>
+            <p id="Living1">
+            Living
+            </p>
+            <div id="box5" class="clearfix">
+				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <p id="Dinning1">
+            Dinning
+            </p>
+            <div id="box6" class="clearfix">
+				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <p id="Beadroom">
+            Beadroom
+            </p>
+            <div id="box7" class="clearfix">
+				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <p id="Kitchen1">
+            Kitchen
+            </p>
+            <div id="box8" class="clearfix">
+				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <p id="Bathroom1">
+            Bathroom
+            </p>
+            <div id="box9" class="clearfix">
+				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </div>
+    </div>
+    </body>
+	<style>
+	/*---------------slider start----------------*/
+	.slider {
+		-webkit-appearance: none;
+		margin-top:20px;
+		width: 100%;
+		height: 5px;
+		background: #d0c4c4;
+		outline: none;
+		opacity: 0.7;
+		border-radius: 2px;
+		-webkit-transition: .2s;
+		transition: all .2s;
+	}
+	.slider::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		border-radius: 30px;
+		width: 25px;
+		height: 25px;
+		background: #1d830f;
+		cursor: pointer;
+		transition: all .2s;
+	}
+	.slider::-webkit-slider-thumb:hover {
+		background: #39ba48;
+	}
+	/*---------------slider end----------------*/
+	/*--------------image cross fade start------------------*/
+	#imagecrossfade, #imagecrossfade1, #imagecrossfade2, #imagecrossfade3, #imagecrossfade4{
+	cursor:pointer;
+	}
+	#imagecrossfade img, #imagecrossfade1 img, #imagecrossfade2 img, #imagecrossfade3 img, #imagecrossfade4 img{
+	position:absolute;
+	-webkit-transition: opacity 0.6s ease-in-out;
+	}
+
+	.transparent {
+	opacity:0;
+	}
+
+	/*--------------image cross fade end------------------*/
+	</style>
+
+	<script>
+	  $(document).ready(function() {
+		$("#imagecrossfade").click(function() {
+		$("#imagecrossfade img.top").toggleClass("transparent");
+	  });
+	  });
+	  $(document).ready(function() {
+		$("#imagecrossfade1").click(function() {
+		$("#imagecrossfade1 img.top").toggleClass("transparent");
+	  });
+	  });
+	  $(document).ready(function() {
+		$("#imagecrossfade2").click(function() {
+		$("#imagecrossfade2 img.top").toggleClass("transparent");
+	  });
+	  });
+	  $(document).ready(function() {
+		$("#imagecrossfade3").click(function() {
+		$("#imagecrossfade3 img.top").toggleClass("transparent");
+	  });
+	  });
+	  $(document).ready(function() {
+		$("#imagecrossfade4").click(function() {
+		$("#imagecrossfade4 img.top").toggleClass("transparent");
+	  });
+	  });
+	</script>
+
+</html>
+

@@ -1,0 +1,443 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(233, 234, 226);
+    padding-top: 100px;
+}
+
+#DP {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    margin-top: 72px;
+    margin-left: 32.682927%;
+    clear: both;
+}
+
+#Back_Door {
+    float: left;
+    font-size: 0.983172em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    color: rgb(21, 35, 60);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 8;
+    margin-top: 338px;
+    margin-left: -13.329044%;
+    clear: none;
+}
+
+#Rectangle_5 {
+    float: left;
+    height: 2px;
+    width: 24.878049%;
+    background-color: rgb(116, 189, 202);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 12;
+    margin-top: 9px;
+    margin-left: 25.853659%;
+    clear: both;
+}
+
+#Recent {
+    float: left;
+    font-size: 0.7973025em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(116, 189, 202);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    margin-top: 22px;
+    margin-left: 26.829268%;
+    clear: both;
+}
+
+#Stove {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 17;
+    margin-top: 12px;
+    margin-left: 26.829268%;
+    clear: both;
+}
+
+#Music {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    margin-top: 12px;
+    margin-left: 26.829268%;
+    clear: both;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#Music:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Music:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Windows {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 15;
+    margin-top: 13px;
+    margin-left: 26.829268%;
+    clear: both;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#Windows:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Garage {
+    float: left;
+    font-size: 0.87703275em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(178, 174, 174);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 14;
+    margin-top: 51px;
+    margin-left: 26.829268%;
+    clear: both;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#Garage:hover {
+    color: rgb(116, 189, 202);
+    background-color: #eff5ef;
+}
+
+#Front_Door {
+    float: left;
+    font-size: 0.983172em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    color: rgb(21, 35, 60);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 7;
+    margin-top: 178px;
+    margin-left: -13.411765%;
+    clear: none;
+}
+
+#unlock {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    margin-top: 139px;
+    margin-left: 1.566176%;
+    clear: none;
+}
+
+#lock {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    margin-top: 139px;
+    margin-left: 64.352941%;
+    clear: none;
+}
+
+#DOORS {
+    float: left;
+    font-size: 1.5148747500000002em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(116, 189, 202);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    margin-top: 54px;
+    margin-left: 26.829268%;
+    clear: both;
+}
+
+#Rectangle_5_copy {
+    float: left;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 21;
+    margin-top: 25px;
+    margin-left: 0%;
+    clear: both;
+}
+
+#Dashboard {
+    float: left;
+    font-size: 0.956763em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1em;
+    color: rgb(68, 68, 76);
+    font-style: normal;
+    letter-spacing: 0.002em;
+    text-decoration: none;
+    font-family: roboto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 13;
+    margin-top: 27px;
+    margin-left: 10.243902%;
+    clear: none;
+	cursor: pointer;
+	transition: all .8s ease;
+}
+
+#Dashboard:hover{
+	color: rgb(116, 189, 202);
+}
+
+#Back_Button {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 18;
+    margin-top: 27px;
+    margin-left: 14.146341%;
+    clear: none;
+}
+
+#Shape_7 {
+    float: left;
+    height: 646px;
+    width: 0.11764706%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 19;
+    margin-top: 0px;
+    margin-left: 0.11764706%;
+    clear: none;
+}
+
+#door_bg {
+    float: left;
+    width: 80.721747%;
+    height: 646px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-image:url("img/door%20bg.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-top: 0px;
+    margin-left: -0.18993352%;
+    clear: none;
+}
+
+#Side_Pane {
+    float: left;
+    width: 19.468186%;
+    height: 646px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    background-image:url("img/Side%20Pane.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+#Rectangle_6 {
+    float: none;
+    height: 649px;
+    width: 1053px;
+    background-color: rgb(233, 234, 226);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    clear: none;
+    -webkit-box-shadow: rgb(96, 96, 96) 0px 3px 33px -6px;
+    box-shadow: rgb(96, 96, 96) 0px 3px 33px -6px;
+}
+
+#box {
+    float: left;
+    height: 49px;
+    margin-left: 1.797794%;
+    margin-top: 116px;
+    clear: none;
+    width: 11.529412%;
+    display: block;
+    margin-right: 0%;
+}
+
+#box1 {
+    float: left;
+    height: 49px;
+    margin-left: -11.479779%;
+    margin-top: 276px;
+    clear: none;
+    width: 11.529412%;
+    margin-right: 0%;
+    display: block;
+}
+
+#lock1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    margin-top: 298px;
+    margin-left: -17.963235%;
+    clear: none;
+    margin-right: 0%;
+}
+
+#unlock1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    margin-top: 298px;
+    margin-left: -1.492647%;
+    clear: none;
+    margin-right: 0%;
+}
+

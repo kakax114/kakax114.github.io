@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="animated zoomIn">
+
+    <head>
+	<link rel="stylesheet" href="boilerplate.css">
+	<link rel="stylesheet" href="door.css">
+	<link rel="stylesheet" href="animate.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+	<script>var __adobewebfontsappname__ = "reflow"</script>
+	<script src="http://use.edgefonts.net/roboto:n9,i9,n7,i7,i4,n3,i3,n5,i5,n4,n2,i2:all.js"></script>
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <div id="Rectangle_6" class="clearfix">
+            <div id="Side_Pane" class="clearfix">
+				<div style="cursor: pointer">
+					<img id="Back_Button" src="img/Back%20Button.png" class="image" />
+					<p id="Dashboard" onclick="location.href='index.html';">
+					Dashboard
+					</p>
+				</div>
+                <div id="Rectangle_5_copy" class="clearfix">
+                </div>
+                <p id="DOORS" onclick="location.href='door.html';">
+                DOORS
+                </p>
+                <p id="Garage" onclick="location.href='garage.html';">
+                Garage
+                </p>
+                <p id="Windows" onclick="location.href='light.html';">
+                Lights
+                </p>
+                <p id="Music" onclick="location.href='stove.html';">
+                Stove
+                </p>
+                <img id="DP" src="img/DP.png" class="image" />
+            </div>
+            <div id="door_bg" class="clearfix">
+                <div id="Shape_7" class="clearfix">
+                </div>
+                <img id="lock" src="img/lock.png" class="image" />
+                <div id="box" class="clearfix">
+					<div style="height:90px;">
+					  <input type="checkbox" id="demo" checked>
+					  <label for="demo"></label>
+					</div>
+                </div>
+                <div id="box1" class="clearfix">
+					<div style="height:90px;">
+					  <input type="checkbox" id="demo">
+					  <label for="demo"></label>
+					</div>
+                </div>
+                <img id="unlock" src="img/unlock.png" class="image" />
+                <p id="Front_Door">
+                Front Door
+                </p>
+                <img id="lock1" src="img/lock.png" class="image" />
+                <img id="unlock1" src="img/unlock.png" class="image" />
+                <p id="Back_Door">
+                Back Door
+                </p>
+            </div>
+        </div>
+    </div>
+		
+	<style>	
+	/*--------------------IOS toggle start--------------------*/
+	  /* put the checkbox somewhere very far away*/
+	  [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+		position: absolute;
+		left: -9999px;
+	  }
+	  /* position of toggle button*/
+	  [type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {
+		position: relative;
+		margin-left: auto;
+		margin-top: auto;
+		cursor: pointer;
+	  }
+	  /*height of toggle and speed of motion*/
+	  [type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before, [type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {
+		content: '';
+		position: absolute;
+		height: 3.2em;
+		transition: all .3s ease;
+	  }
+	  /*pill style when OFF*/
+	  [type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before {
+		left: 0;
+		top: 0;
+		width: 6em;
+		border: 2px solid #dddddd;
+		background: #dddddd;
+		border-radius: 7em;
+		z-index: -1;
+	  }
+	  /*pill changed when ON*/
+	  [type="checkbox"]:checked + label:before {
+		background-color: #72da67;
+		border-color: #72da67;
+	  }
+	  /*circle position and shape when OFF*/
+	  [type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {
+		left: .2em;
+		top: .125em;
+		background-color: #fff;
+		border-radius: 100%;
+		width: 3.2em;
+	  }
+	  /*circle position when ON*/
+	  [type="checkbox"]:checked + label:after { 
+		left: 2.95em; 
+	  }
+	  /*--------------------IOS toggle end--------------------*/
+	</style>
+		
+	<script>
+	</script>
+    </body>
+</html>
