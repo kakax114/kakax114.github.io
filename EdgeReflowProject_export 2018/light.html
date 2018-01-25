@@ -51,7 +51,7 @@
                 <div id="box1" class="clearfix">
 					<div id="imagecrossfade1">
 					  <img class="bottom" src="img/Disable.png" />
-					  <img class="top" src="img/Active.png" />
+					  <img class="top transparent" src="img/Active.png" />
 					</div>
                 </div>
                 <div id="box2" class="clearfix">
@@ -69,7 +69,7 @@
                 <div id="box4" class="clearfix">
 					<div id="imagecrossfade4">
 					  <img class="bottom" src="img/Disable.png" />
-					  <img class="top" src="img/Active.png" />
+					  <img class="top transparent" src="img/Active.png" />
 					</div>
                 </div>
                 <p id="Living">
@@ -92,31 +92,31 @@
             Living
             </p>
             <div id="box5" class="clearfix">
-				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				<input type="range" min="1" max="100" value="35" class="slider" id="myRange">
             </div>
             <p id="Dinning1">
             Dinning
             </p>
             <div id="box6" class="clearfix">
-				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				<input type="range" min="1" max="100" value="0" class="slider" id="myRange1">
             </div>
             <p id="Beadroom">
             Beadroom
             </p>
             <div id="box7" class="clearfix">
-				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				<input type="range" min="1" max="100" value="80" class="slider" id="myRange2">
             </div>
             <p id="Kitchen1">
             Kitchen
             </p>
             <div id="box8" class="clearfix">
-				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				<input type="range" min="1" max="100" value="60" class="slider" id="myRange3">
             </div>
             <p id="Bathroom1">
             Bathroom
             </p>
             <div id="box9" class="clearfix">
-				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				<input type="range" min="1" max="100" value="0" class="slider" id="myRange4">
             </div>
         </div>
     </div>
@@ -172,28 +172,64 @@
     }
 	  $(document).ready(function() {
 		$("#imagecrossfade").click(function() {
-		$("#imagecrossfade img.top").toggleClass("transparent");
-	  });
+			$("#imagecrossfade img.top").toggleClass("transparent");
+			if($("#imagecrossfade img.top").attr('class')==='top transparent'){
+				document.getElementById("myRange").disabled = true;
+				document.getElementById("myRange").value=0;
+			} else{
+				document.getElementById("myRange").disabled = false;
+				document.getElementById("myRange").value=20;
+			}
+			
+	  	});
 	  });
 	  $(document).ready(function() {
 		$("#imagecrossfade1").click(function() {
-		$("#imagecrossfade1 img.top").toggleClass("transparent");
-	  });
+			$("#imagecrossfade1 img.top").toggleClass("transparent");
+			if($("#imagecrossfade1 img.top").attr('class')==='top transparent'){
+				document.getElementById("myRange1").disabled = true;
+				document.getElementById("myRange1").value=0;
+			} else{
+				document.getElementById("myRange1").disabled = false;
+				document.getElementById("myRange1").value=20;
+			}
+		});
 	  });
 	  $(document).ready(function() {
 		$("#imagecrossfade2").click(function() {
-		$("#imagecrossfade2 img.top").toggleClass("transparent");
-	  });
+			$("#imagecrossfade2 img.top").toggleClass("transparent");
+			if($("#imagecrossfade2 img.top").attr('class')==='top transparent'){
+				document.getElementById("myRange2").disabled = true;
+				document.getElementById("myRange2").value=0;
+			} else{
+				document.getElementById("myRange2").disabled = false;
+				document.getElementById("myRange2").value=20;
+			}
+		  });
 	  });
 	  $(document).ready(function() {
 		$("#imagecrossfade3").click(function() {
-		$("#imagecrossfade3 img.top").toggleClass("transparent");
-	  });
+			$("#imagecrossfade3 img.top").toggleClass("transparent");
+			if($("#imagecrossfade3 img.top").attr('class')==='top transparent'){
+				document.getElementById("myRange3").disabled = true;
+				document.getElementById("myRange3").value=0;
+			} else{
+				document.getElementById("myRange3").disabled = false;
+				document.getElementById("myRange3").value=20;
+			}
+		  });
 	  });
 	  $(document).ready(function() {
 		$("#imagecrossfade4").click(function() {
-		$("#imagecrossfade4 img.top").toggleClass("transparent");
-	  });
+			$("#imagecrossfade4 img.top").toggleClass("transparent");
+			if($("#imagecrossfade4 img.top").attr('class')==='top transparent'){
+				document.getElementById("myRange4").disabled = true;
+				document.getElementById("myRange4").value=0;
+			} else{
+				document.getElementById("myRange4").disabled = false;
+				document.getElementById("myRange4").value=20;
+			}
+		  });
 	  });
 	</script>
 
