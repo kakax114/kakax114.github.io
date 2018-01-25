@@ -42,6 +42,10 @@
             <div id="red_car" class="clearfix">
                 <img id="close_garage_icon" src="img/close%20garage%20icon.png" class="image" />
                 <div id="box" class="clearfix">
+					<div style="height:90px;">
+					  <input type="checkbox" id="demo" checked>
+					  <label for="demo"></label>
+					</div>
                 </div>
                 <img id="open_garage_icon" src="img/open%20garage%20icon.png" class="image" />
                 <p id="Garage_A">
@@ -49,6 +53,10 @@
                 </p>
                 <img id="close_garage_icon1" src="img/close%20garage%20icon.png" class="image" />
                 <div id="box1" class="clearfix">
+					<div style="height:90px;">
+					  <input type="checkbox" id="demo2">
+					  <label for="demo2"></label>
+					</div>
                 </div>
                 <img id="open_garage_icon1" src="img/open%20garage%20icon.png" class="image" />
                 <p id="Garage_B">
@@ -63,5 +71,55 @@
 			document.documentElement.className="animated zoomOut";
 		}
 		</script>
+		<style>
+			/*--------------------IOS toggle start--------------------*/
+	  /* put the checkbox somewhere very far away*/
+	  #deomo,#deomo2,[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+		position: absolute;
+		left: -9999px;
+	  }
+	  /* position of toggle button*/
+	  #deomo,#deomo2,[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {
+		position: relative;
+		margin-left: auto;
+		margin-top: auto;
+		cursor: pointer;
+	  }
+	  /*height of toggle and speed of motion*/
+	  #deomo,#deomo2,[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before, [type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {
+		content: '';
+		position: absolute;
+		height: 3.2em;
+		transition: all .3s ease;
+	  }
+	  /*pill style when OFF*/
+	  #deomo,#deomo2,[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before {
+		left: 0;
+		top: 0;
+		width: 6em;
+		border: 2px solid #dddddd;
+		background: #dddddd;
+		border-radius: 7em;
+		z-index: -1;
+	  }
+	  /*pill changed when ON*/
+	  #deomo,#deomo2,[type="checkbox"]:checked + label:before {
+		background-color: #72da67;
+		border-color: #72da67;
+	  }
+	  /*circle position and shape when OFF*/
+	  #deomo,#deomo2,[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {
+		left: .2em;
+		top: .125em;
+		background-color: #fff;
+		border-radius: 100%;
+		width: 3.2em;
+	  }
+	  /*circle position when ON*/
+	  #deomo,#deomo2,[type="checkbox"]:checked + label:after { 
+		left: 2.95em; 
+	  }
+	  /*--------------------IOS toggle end--------------------*/
+		</style>
     </body>
 </html>
