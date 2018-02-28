@@ -1,0 +1,45 @@
+
+
+under
+
+<div id="videoDiv" class="clearfix">
+
+delete
+
+<img id="image11" src="img/trans.png" class="image" />
+
+copy with: 
+
+<div style= "position:relative; MARGIN-TOP: -670px; ">
+<img id="image" src="img/trans.png" style = "display:block;width:100%;height:auto;" />           
+<iframe src="https://www.youtube.com/embed/GYzqq5wzPY8?&theme=light&color=white&autohide=1&modestbranding=1&showinfo=0&iv_load_policy=3" frameborder="0" style = "position:absolute;top:0;left:0;width:100%; height:100%;"></iframe>
+</div>
+
+
+
+What Audiences are Saying
+
+under
+
+<div id="videoDiv1" class="clearfix">
+
+delete
+
+<img id="image11" src="img/trans.png" class="image" />
+
+copy with: 
+
+<div style= "position:relative; MARGIN-TOP: -670px; ">
+<img id="image" src="img/trans.png" style = "display:block;width:100%;height:auto;" />
+<iframe src="https://www.youtube.com/embed/fJ0c4PN6oco?&theme=light&color=white&autohide=1&modestbranding=1&showinfo=0&iv_load_policy=3" frameborder="0" style = "position:absolute;top:0;left:0;width:100%; height:100%; showinfo=0"></iframe>
+</div>
+
+
+Domain: localnzshenyun.net84.net
+IP Address: 31.170.160.79
+Username: a9918060
+Password: **
+
+
+
+
